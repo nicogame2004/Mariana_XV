@@ -246,27 +246,35 @@
         font-size: 3.5rem;
     }
 
+ @media (max-width: 600px) {
+
     .fecha-row {
-    width: 100%;
-    max-width: 320px;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 22px;
-}
+        width: 100%;
+        max-width: 280px;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 18px;
+    }
 
-.fecha-bloque {
-    gap: 4px;
-}
+    .fecha-bloque {
+        gap: 3px;
+    }
 
-.linea {
-    width: 100%;
-    max-width: 90px;
-}
+    .linea {
+        width: 100%;
+        max-width: 72px;
+    }
 
-.fecha-texto {
-    font-size: 0.9rem;
-    letter-spacing: 0.08em;
+    .fecha-texto {
+        font-size: 0.82rem;
+        letter-spacing: 0.05em;
+    }
+
+    .numero-dia {
+        font-size: 2.5rem;
+    }
+
 }
 
 .numero-dia {
