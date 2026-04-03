@@ -1,0 +1,191 @@
+/* ===== FUENTES ===== */
+
+@font-face {
+    font-family: "Above the Beyond Script";
+    src: url("../assets/fonts/Above the Beyond Script.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ===== PAGINA ===== */
+
+.sobre-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+
+    background-image: url("../assets/fotos/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ===== CONTENEDOR ===== */
+
+.sobre-container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 16px 14px;
+}
+
+/* ===== TITULOS ===== */
+
+.titulo {
+    font-family: "Questrial", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 2px;
+    line-height: 1.05;
+}
+
+.nombre {
+    font-family: "Above the Beyond Script", cursive;
+    font-size: 110px;
+    font-weight: 400;
+    color: #a2334d;
+    line-height: 0.9;
+    margin-bottom: -10px;
+}
+
+/* ===== SOBRE ===== */
+
+.sobre-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: -25px;
+}
+
+.sobre-link {
+    display: block;
+    text-decoration: none;
+}
+
+.sobre-img {
+    width: 520px;
+    max-width: none;
+    height: auto;
+    display: block;
+    cursor: pointer;
+
+    filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.16));
+    transition: transform 0.25s ease;
+}
+
+.sobre-img:hover {
+    transform: scale(1.03);
+}
+
+/* ===== TEXTO ABRIR ===== */
+
+.texto-abrir {
+    position: absolute;
+
+    top: 90px;
+    right: 50px;
+
+    font-family: "Questrial", sans-serif;
+    font-size: 15px;
+    line-height: 1.05;
+    color: #000000;
+    font-weight: 400;
+
+    text-align: left;
+    white-space: nowrap;
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+    margin-top: 0px;
+}
+
+.footer h2 {
+    font-family: "Questrial", sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: #a2334d;
+    margin-bottom: 4px;
+}
+
+.footer p {
+    font-family: "Questrial", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.15;
+}
+
+/* ===== TABLET ===== */
+
+@media (max-width: 900px) {
+
+    .titulo {
+        font-size: 28px;
+    }
+
+    .nombre {
+        font-size: 88px;
+    }
+
+    .sobre-img {
+        width: 440px;
+    }
+
+    .texto-abrir {
+        top: 60px;
+        right: -14px;
+        font-size: 14px;
+    }
+
+    .footer h2 {
+        font-size: 30px;
+    }
+
+    .footer p {
+        font-size: 17px;
+    }
+}
+
+/* ===== CELULAR ===== */
+
+@media (max-width: 600px) {
+
+    .sobre-page {
+        padding: 12px;
+    }
+
+    .sobre-container {
+        padding: 6px 6px 10px;
+    }
+
+    .titulo {
+        font-size: 22px;
+    }
+
+    .nombre {
+        font-size: 64px;
+    }
+
+    .sobre-img {
+        width: 320px;
+    }
+
+    .texto-abrir {
+        top: 46px;
+        right: -10px;
+        font-size: 11px;
+    }
+
+    .footer h2 {
+        font-size: 24px;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+}
