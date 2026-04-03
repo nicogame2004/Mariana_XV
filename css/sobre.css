@@ -165,10 +165,12 @@
 
     .titulo {
         font-size: 22px;
+        margin-bottom: 25px;
     }
 
     .nombre {
         font-size: 64px;
+        margin-bottom: 25px;
     }
 
     .sobre-img {
