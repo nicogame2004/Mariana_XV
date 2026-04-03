@@ -137,9 +137,9 @@
     }
 
     .texto-abrir {
-        top: 60px;
-        right: -14px;
-        font-size: 14px;
+        top: 55px;
+        right: 20px;
+        right: 50px;
     }
 
     .footer h2 {
@@ -178,9 +178,9 @@
     }
 
     .texto-abrir {
-        top: 46px;
-        right: -10px;
-        font-size: 11px;
+        top: 55px;
+        right: 20px;
+        font-size: 10px;
     }
 
     .footer h2 {
