@@ -85,8 +85,8 @@
 .texto-abrir {
     position: absolute;
 
-    top: 90px;
-    right: 50px;
+    top: 100px;
+    right: 10px;
 
     font-family: "Questrial", sans-serif;
     font-size: 15px;
@@ -178,8 +178,8 @@
     }
 
     .texto-abrir {
-        top: 55px;
-        right: 20px;
+        top: 65px;
+        right: 10px;
         font-size: 10px;
     }
 
