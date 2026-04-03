@@ -6,7 +6,6 @@ function stopInvitationMusic() {
     if (audioPlayer) {
         audioPlayer.pause();
         audioPlayer.currentTime = 0;
-        audioPlayer.remove();
         audioPlayer = null;
     }
 }
@@ -36,6 +35,10 @@ function loadPage(page) {
 
             if (page.includes("invitacion.html")) {
                 startInvitationMusic();
+
+                if (typeof initInvitacion === "function") {
+                    initInvitacion();
+                }
             } else {
                 stopInvitationMusic();
             }
