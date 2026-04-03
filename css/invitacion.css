@@ -19,6 +19,14 @@
     overflow-x: hidden;
 }
 
+.inv-extra img {
+    display: block;
+    margin: 20px auto;
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+}
+
 .invitacion-card {
     width: 100%;
     max-width: none;
